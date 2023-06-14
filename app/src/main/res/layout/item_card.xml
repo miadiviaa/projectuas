@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:elevation="6dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:background="@color/cardview_shadow_end_color"
+        >
+
+        <ImageView
+            android:id="@+id/iv_foto"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_foto"
+            android:text="Nama Salon"
+            android:textSize="20sp"
+            android:textStyle="bold"
+           />
+
+        <TextView
+            android:id="@+id/tv_tentang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi Salon"
+            android:layout_below="@id/tv_nama"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_tentang"
+            android:ellipsize="end"
+            android:text="Alamat Salon"/>
+
+        <TextView
+            android:id="@+id/tv_koordinat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_alamat"
+            android:ellipsize="end"
+            android:text="Koordinat Maps"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

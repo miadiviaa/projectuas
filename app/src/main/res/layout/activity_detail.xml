@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:background="@drawable/bgjuga2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_foto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Salon
+"
+            android:padding="6dp"
+            android:justificationMode="inter_word"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_tentang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tentang Bimbel"
+            android:padding="6dp"
+            android:justificationMode="inter_word"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat:"
+            android:padding="1dp"
+            android:justificationMode="inter_word"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"/>
+        
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="alamat"
+            android:justificationMode="inter_word"
+            android:padding="6dp"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Koordinat:"
+            android:padding="1dp"
+            android:justificationMode="inter_word"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_koordinat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="koordinat"
+            android:padding="6dp"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btn_lokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buka Lokasi"
+            android:background="@color/white"
+            />
+
+        </LinearLayout>
+    
+</ScrollView>
